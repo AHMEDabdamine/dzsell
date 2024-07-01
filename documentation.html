@@ -21,7 +21,7 @@
     <!-- Primary Meta Tags -->
 <meta name="title" content="Dz SELL">
 <meta name="description" content="Dz SELL - the only POS software you need">
-
+<link rel="stylesheet" href="assets/css/doc.css">
 
     <!--====== Favicon Icon ======-->
     <link
@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <style></style>
   </head>
   <body>
     <header class="ud-header">
@@ -70,7 +71,7 @@
                     <a class="ud-menu-scroll" href="#contact">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a href="fulldoc.html">documentation</a>
+                    <a href="documentation.html">documentation</a>
                   </li>
                 </ul>
               </div>
@@ -100,308 +101,233 @@
   <div class="container">
     <h1 class="text-center mt-5">Dz SELL Getting Started Guide</h1>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#configuration">Configuration</a></li>
-        <li class="nav-item"><a class="nav-link" href="#employees">Employees</a></li>
-        <li class="nav-item"><a class="nav-link" href="#inventory">Inventory</a></li>
-        <li class="nav-item"><a class="nav-link" href="#sales">Sales</a></li>
-        <li class="nav-item"><a class="nav-link" href="#expenses">Expenses</a></li>
-      </ul>
-    </nav>
+  
+    <div class="container">
+        <h1 class="text-center mt-5 mb-4">Dz SELL Installation Guide 🚀⚡⚡</h1>
 
-    <section id="configuration">
-      <h2>1. Configuration</h2>
-      <p>The first step is to configure the store at the Office module. Please refer to the <a href="configuration.html">Configuration wiki page</a> to learn how to do that.</p>
-      <p>Older versions may use the StoreConfig module instead. See the following:</p>
-      <ul>
-        <li>MainScreen -> StoreConfig -> click</li>
-      </ul>
-    </section>
+        <ol class="list-group list-group-flush">
+            <li class="list-group-item">
+                <h2 class="mb-3">1. Download the Prerequisites</h2>
+                <p><a href="download.html">Download </a> the required files from our website. These will include the following:</p>
+                <ul>
 
-    <section id="employees">
-      <h2>2. Employees</h2>
-      <p>You'll need to create employee users who can log in to the store. Starting in version 3.2.0, the Employee module is found within the Office module.</p>
-      <ul>
-        <li>MainScreen -> Office -> (click) -> Employee -> (click)</li>
-      </ul>
-      <p>Please refer to the <a href="employees.html">Employees wiki page</a> for detailed instructions.</p>
-      <h3 class="mt-4">2.1. Permissions</h3>
-      <p>Remember to set appropriate permissions for your employees to manage inventory.</p>
-    </section>
+                    <li>wamp server installer</li>                <img src="doc/1.png" alt="">
 
-    <section id="inventory">
-      <h2>3. Inventory</h2>
-      <p>This module allows you to load Items and Kits. It's a complex module, but Dz SELL is well-integrated. For example, you can create new inventory items directly from the Sales module.</p>
-      <h3 class="mt-4">3.1. Items</h3>
-      <p>To load a product into the inventory, click the Items button. This will display your existing items. See the <a href="inventory-items.html">Inventory Items wiki page</a> for more information.</p>
-      <h3 class="mt-4">3.2. Kits</h3>
-      <p>You can group inventory items into Kits to sell them as combo products. Click the Items Kits module button to manage kits. Refer to the <a href="inventory-kits.html">Inventory Kits wiki page</a> for guidance.</p>
-    </section>
+                    <li>Microsoft C++ package installer</li>
+                </ul>
+            </li>
 
-    <section id="sales">
-      <h2>4. Sales</h2>
-      <p>This module allows you to process Sales and Returns. It's a comprehensive module with many features, including different payment methods, receipt printing, and a temporary item feature.</p>
-      <h3 class="mt-4">4.1. Sales Modes</h3>
-      <p>Dz SELL includes a Cash Register / Point of Sale module. See the <a href="sales-modes.html">Sales Modes wiki page</a> for details.</p>
-      <h3 class="mt-4">4.2. Sales Restaurant</h3>
-      <p>With a few adjustments, Dz SELL can work as a POS system for restaurants using the Table feature. See the <a href="sales-restaurant.html">Sales Restaurant wiki page</a> for information.</p>
-    </section>
+            <li class="list-group-item">
+                <h2 class="mb-3">2. Purchase Dz SELL and Download</h2>
+                <p>Purchase Dz SELL from our website or <a href="contact.html">contact us </a> and obtain the download link. Download the Dz SELL package.</p>
+            </li>
 
-    <section id="expenses">
-      <h2>5. Expenses</h2>
-      <p>Dz SELL has a basic Expenses module for simple expense tracking. This module does not include accounting functionality.</p>
-      <p>Please refer to the <a href="expenses.html">Expenses wiki page</a> for details on using this module.</p>
-    </section>
+            <li class="list-group-item">
+                <h2 class="mb-3">3. Extract the Prerequisites</h2>
+                <img  class="zip" src="doc/3.png" alt="">
+
+                <p>Extract the contents of the downloaded "prerequisites.zip" file. You will find two files:</p>
+                <ul>
+                  <img src="doc/2.png" alt="">
+                    <li>wamp server installer</li>
+                    <li>Microsoft C++ package installer</li>
+                </ul>
+            </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">4. Install Microsoft C++ Package</h2>
+                <p>Extract the "visual studio C++ pack" and locate the "install all .bat" file. Execute this file and wait for the installation to complete. Accept all prompts during the installation. Don't worry if you see a command prompt, this is normal. </p>
+            <img src="doc/4.png" style="margin: 15px;">
+            <img src="doc/5.png" alt="">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">5. Install WAMP Server</h2>
+                <p>Install the WAMP server by executing the downloaded .exe installer. Follow these steps:</p> <img src="doc/6.png" alt=""><img src="doc/7.png" alt="">
+                <ol>
+                    <li>Choose your language and click "OK".</li>
+                    <li>Accept the terms of usage and click "Next".</li>
+                    <li>Choose the location where you want to save the WAMP files. Remember this location and click "Next".</li>
+                    <li>Continue clicking "Next" until the WAMP server is installed.</li>
+                </ol>
+            </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">6. Install Dz SELL</h2>
+                <img src="doc/9.png" alt="">
+                <p>Execute the Dz SELL installer. A window will pop up. Click "OK". The installer will prompt you for a location to save the Dz SELL files. Install it in the "www" folder of your WAMP server (e.g., C:\wamp64\www\Dz SELL). If you are installing it on the C drive, you can just click "Next" as the default path should be correct.</p>
+            </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">7. Start WAMP Server</h2>
+                <p>Go to the WAMP shortcut you just installed and run it. Wait for all services to start. You will see a green "W" icon on your taskbar.</p>
+              <img src="doc/11.png" alt="">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">8. Configure PHP Version</h2>
+                <p>Click on the green "W" icon on the taskbar. Navigate to "PHP" and change the PHP version to 7.3. The server will restart automatically.</p>
+            <img src="doc/12.png" alt="" style="height: 280px;">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">9. Access phpMyAdmin</h2>
+                <p>Click on the green "W" icon again. Navigate to "phpMyAdmin" and run it. A new tab will open in your web browser and phpMyAdmin will start.</p>
+            <img src="doc/13.png" style="height: 280px;">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">10. Create the Dz SELL Database</h2>
+                <p>Enter the username "root" (without a password). In the "Databases" section, click "New" to create a new database. Name it "dzsell". This will create a database named "dzsell".</p>
+            <img src="doc/14.png" >
+            <img src="doc/15.png" alt="">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">11. Import the Database</h2>
+                <p>Click on "Import" and then "Browse". Go to this path: C:\wamp64\www\Dz SELL\databases\dzsell.sql. Scroll down and click "Import". Wait for a few seconds, and you will see a confirmation message.</p>
+                <img src="doc/16.png" >
+                <img src="doc/17.png" >
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">12. Create a Virtual Host</h2>
+                <p>Go back to the green "W" icon on the taskbar. Navigate to "localhost" (or type "localhost" in your browser). This will open a page with localhost controls. Click "Add New Virtual Host".</p>
+            
+            <img src="doc/18.png" alt="">
+              </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">13. Configure Virtual Host</h2>
+                <p>Fill in the following fields:</p>
+                <ul>
+                    <li>**First Input:** Enter "www.dzsell.com" or any other desired name (use a short name like "dzsell" or "pos").</li>
+                    <li>**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). </li>
+                    <li>**Third Field:** Leave this empty.</li>
+                    <img src="doc/19.png" alt="">
+                </ul>
+                <p>Click "Create" to create the virtual host. Restart the WAMP server by right-clicking the green "W" icon and selecting "Restart all services".</p>
+            </li>
+
+            <li class="list-group-item">
+                <h2 class="mb-3">14. Start Using Dz SELL</h2>
+                <p>Dz SELL is now ready to use! lanch your app login with the inforamtions provided by us and wait for the database migration to finish . You can start making money with it 🤑 and track you business 🚀🚀.</p>
+            <img src="doc/20.png" alt="">
+              </li>
+        </ol>
+    </div>
+
+  
   </div>
 
 
 
   
-    <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-      <div class="shape shape-1">
-        <img src="assets/images/footer/shape-1.svg" alt="shape" />
-      </div>
-      <div class="shape shape-2">
-        <img src="assets/images/footer/shape-2.svg" alt="shape" />
-      </div>
-      <div class="shape shape-3">
-        <img src="assets/images/footer/shape-3.svg" alt="shape" />
-      </div>
-      <div class="ud-footer-widgets">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="ud-widget">
-                <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
-                </a>
-                <p class="ud-widget-desc">
-                  We create digital experiences for brands and companies by
-                  using technology.
-                </p>
-                <ul class="ud-widget-socials">
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-facebook-filled"></i>
+        <!-- ====== Footer Start ====== -->
+        <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+          <div class="shape shape-1">
+            <img src="assets/images/footer/shape-1.svg" alt="shape" />
+          </div>
+          <div class="shape shape-2">
+            <img src="assets/images/footer/shape-2.svg" alt="shape" />
+          </div>
+          <div class="shape shape-3">
+            <img src="assets/images/footer/shape-3.svg" alt="shape" />
+          </div>
+          <div class="ud-footer-widgets">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  <div class="ud-widget">
+                    <a href="index.html" class="ud-footer-logo">
+                      <img src="assets/images/logo/logo.svg" alt="logo" />
                     </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">About Us</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">Home</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Features</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">About</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Testimonial</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Features</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">How it works</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Privacy policy</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Terms of service</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Refund policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Our Products</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Lineicons
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ecommerce HTML</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ayro UI</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Plain Admin</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Partners</h5>
-                <ul class="ud-widget-brands">
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ayroui.svg"
-                        alt="ayroui"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ecommerce-html.svg"
-                        alt="ecommerce-html"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/graygrids.svg"
-                        alt="graygrids"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/lineicons.svg"
-                        alt="lineicons"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://uideck.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/uideck.svg"
-                        alt="uideck"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindtemplates.co/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/tailwindtemplates.svg"
-                        alt="tailwindtemplates"
-                      />
-                    </a>
-                  </li>
-                </ul>
+                    <p class="ud-widget-desc">
+                      we give you a soft experience managenig your business.
+                    </p>
+                    <ul class="ud-widget-socials">
+                      <li>
+                        <a href="https://twitter.com/MusharofChy">
+                          <i class="lni lni-facebook-filled"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/MusharofChy">
+                          <i class="lni lni-twitter-filled"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/MusharofChy">
+                          <i class="lni lni-instagram-filled"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/MusharofChy">
+                          <i class="lni lni-linkedin-original"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+    
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                  <div class="ud-widget">
+                    <h5 class="ud-widget-title">About Us</h5>
+                    <ul class="ud-widget-links">
+                      <li>
+                        <a href="javascript:void(0)">Home</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Features</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">About</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Testimonial</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                  <div class="ud-widget">
+                    <h5 class="ud-widget-title">Features</h5>
+                    <ul class="ud-widget-links">
+                      <li>
+                        <a href="javascript:void(0)">UI / UX</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Support</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Terms of service</a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Refund policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                    <img style="height: 250px; border-radius: 20px;" src="assets/images/footer/gaza sudan.jpg" alt="">
+                 
+                  </div></div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="ud-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <ul class="ud-footer-bottom-left">
-                <li>
-                  <a href="javascript:void(0)">Privacy policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Support policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Terms of service</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <p class="ud-footer-bottom-right">
-                Designed and Developed by
-                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
-              </p>
-            </div>
+          
           </div>
-        </div>
-      </div>
-    </footer>
-    <!-- ====== Footer End ====== -->
-
-    <!-- ====== Back To Top Start ====== -->
-    <a href="javascript:void(0)" class="back-to-top">
-      <i class="lni lni-chevron-up"> </i>
-    </a>
-    <!-- ====== Back To Top End ====== -->
-
-    <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
-</html>
+        </footer>
+        <!-- ====== Footer End ====== -->
+    
+        <!-- ====== Back To Top Start ====== -->
+        <a href="javascript:void(0)" class="back-to-top">
+          <i class="lni lni-chevron-up"> </i>
+        </a>
+        <!-- ====== Back To Top End ====== -->
+    
+        <!-- ====== All Javascript Files ====== -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
