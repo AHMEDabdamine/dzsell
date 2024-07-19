@@ -9,7 +9,7 @@
 ========== -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,20 +22,6 @@
 <meta name="title" content="Dz SELL">
 <meta name="description" content="Dz SELL - the only POS software you need">
 
-<!-- Open Graph / Facebook
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://uideck.com/play/">
-<meta property="og:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="og:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-<meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
-
-Twitter
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://uideck.com/play/">
-<meta property="twitter:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="twitter:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
-<meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg"> -->
-
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
@@ -44,6 +30,12 @@ Twitter
     />
 
     <!-- ===== All CSS files ===== -->
+     <style>
+
+body.rtl {
+            direction: rtl;
+        }
+     </style>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
@@ -68,33 +60,34 @@ Twitter
               <div class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#home">Home</a>
+                    <a class="ud-menu-scroll" href="#home" data-lang="home">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
+                    <a class="ud-menu-scroll" href="#about" data-lang="about" >About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#pricing">Pricing</a>
+                    <a class="ud-menu-scroll" href="#pricing" data-lang="price" >Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Team</a>
+                    <a class="ud-menu-scroll" href="#team" data-lang="tm">Team</a>
                   </li>
                   <li class="nav-item">
-                    <a target="_blank" href="contact.html">Contact</a>
+                    <a target="_blank" href="contact.html" data-lang="contact" >Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a href="documentation.html" data-i18n="documentation">documentation</a>
+                    <a href="documentation.html" data-lang="doc">documentation</a>
                   </li>
-                  <li class="nav-item" >
-                    <select class="mt-2" style=" width: 130px; height: 30px;">
-                    <option value="ar">Arabic <img src="assets/images/hero/dz.svg" height="20px"></option>
-                    <option value="en"  data-i18n="english" >English<img src="assets/images/hero/us.svg" height="20px"></option>
+                  
+                </ul>
+                <ul>
+                <li class="nav-item" >
+                    <select class="mt-2" style=" width: 130px; height: 30px;" id="language-selector">
+                    <option value="ar">Ar <img src="assets/images/hero/dz.svg" height="20px"></option>
+                    <option value="en">En<img src="assets/images/hero/us.svg" height="20px"></option>
 
                     </select>
-                  </li>
-                </ul>
-<script src="assets/js/language .js"></script>
+                  </li> </ul>
               </div>
 
             
@@ -112,21 +105,21 @@ Twitter
           <div class="col-lg-12">
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
               <h1 class="ud-hero-title">
-               <b><span style="color: rgb(0, 0, 0);"> Dz SELL </span> , the only POS software you need.</b>
+              <span style="color: rgb(0, 0, 0); font-weight: bolder; font-size: larger;" data-lang="dzsell"> Dz SELL </span>  <br><b data-lang="sell"> , the only POS software you need.</b>
               </h1>
-              <p class="ud-hero-desc">
-                a web based POS software that run 
+              <p class="ud-hero-desc" data-lang="desc">
+                a web based POS software that can run 
                 on electron and on your browser ⚡
               </p>
               <ul class="ud-hero-buttons">
                 <li>
-                  <a href="download.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                  <a data-lang="download" href="download.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                     Download Now
                   </a>
                 </li>
                 <li>
-                  <a href="documentation.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
-                    Learn More <i class="lni lni-arrow-right"></i>
+                  <a  href="documentation.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
+                     <span data-lang="Learn" >Learn More</span> <i class="lni lni-arrow-right"></i>
                   </a>
                 </li>
               </ul>
@@ -162,9 +155,9 @@ Twitter
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title">
-              <span>Features</span>
-              <h2>Main Features of Dz SELL</h2>
-              <p>
+              <span data-lang="fr">Features</span>
+              <h2 data-lang="feature">Main Features of Dz SELL</h2>
+              <p data-lang="feat">
                 Supercharge your sales with our feature-rich POS system.
                 <br> All the POS features you need to thrive, in one easy-to-use platform.
               </p>
@@ -177,11 +170,11 @@ Twitter
               <div class="ud-feature-icon">
                 <i class="lni lni-ux"></i>              </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">simple UI and great user experience </h3>
-                <p class="ud-feature-desc">
+                <h3 class="ud-feature-title" data-lang="ui">simple UI and great user experience </h3>
+                <p class="ud-feature-desc" data-lang="uidesc">
                       our pos softwate is really simple and easy to use and beginner friendly it also Support many languages. also it include a dashboard and a reports section to track the statue of your bisness</p>
               
-                <a target="_blank" href="UI.html" class="ud-feature-link">
+                <a target="_blank" href="UI.html" class="ud-feature-link" data-lang="Learn">
                   Learn More
                 </a>
               </div>
@@ -193,15 +186,15 @@ Twitter
                 <i class="lni lni-support"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">installation support </h3>
-                <p class="ud-feature-desc">
+                <h3 class="ud-feature-title" data-lang="inst">installation support </h3>
+                <p class="ud-feature-desc"data-lang="instdesc">
                   we provide a <b> FREE</b> installation service for our Customers
                 </p>
                 <br>
                 <br>
                 <br>
                 <br>
-                <a target="_blank" href="installation.html" class="ud-feature-link">
+                <a target="_blank" href="installation.html" class="ud-feature-link" data-lang="Learn">
                   Learn More
                 </a>
               </div>
@@ -210,14 +203,14 @@ Twitter
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
               <div class="ud-feature-icon">
-                <i class="lni lni-cloud-network"></i>
+                <i class="lni lni-envelope"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Modern technologies</h3>
-                <p class="ud-feature-desc">
-                  Our pos software keep up with all the new cashier and sell tech it has a lots of build in features like scale support, barcode generator,support all the printers , multiple employees ... 
+                <h3 class="ud-feature-title" data-lang="mail">E-mail Sending </h3>
+                <p class="ud-feature-desc" data-lang="maildesc">
+                    
                 </p>
-                <a target="_blank" href="javascript:void(0)" class="ud-feature-link">
+                <a data-lang="Learn" target="_blank" href="javascript:void(0)" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
@@ -229,12 +222,12 @@ Twitter
                 <i class="lni lni-network"></i>
               </div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">easy to access</h3>
-                <p class="ud-feature-desc">
+                <h3 class="ud-feature-title" data-lang="easy">Easy to access</h3>
+                <p class="ud-feature-desc" data-lang="easydesc">
                   the web structure of our software make it able to run on browser or the included app , also you can access it with another pc from the local network  
                 </p>
                 <br>
-                <a target="_blank" href="javascript:void(0)" class="ud-feature-link">
+                <a data-lang="Learn" target="_blank" href="javascript:void(0)" class="ud-feature-link">
                   Learn More
                 </a>
               </div>
@@ -679,8 +672,10 @@ Twitter
     <!-- ====== All Javascript Files ====== -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script> 
+
     <script>
+
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
 
@@ -723,5 +718,6 @@ Twitter
 
       window.document.addEventListener("scroll", onScroll);
     </script>
+    <script src="assets/js/language .js"></script>
   </body>
 </html>
