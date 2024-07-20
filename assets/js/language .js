@@ -22,6 +22,34 @@ let lang = {
         maildesc:"برنامج Dz SELL مجهز ليمكن المستخدم أو البائع من إرسال إيصال البيع أو الفاتورات عبر البريد الإلكتروني الخاص بالعميل ",
         easy:"سهولة الوصول والإدارة ",
         easydesc:"برنامج Dz SELL  يسهل عملة الوصول له للمستخدمين من خلال إمكانية مشاركته على الشبكة ، وإحتواؤه على نظام تنظيم الموضفين وصلاحياتهم يجعل إدارة مشاريعكم سهلة ",
+        about:"",
+        aboutttl:"برنامج ذكي يساعدك على تسيير وتحسين متجرك  ",
+        p1 : "تصور برنامجًا لحلول برمجي يُنظم عملية تشغيل عملك بالكامل. ستصبح إدارة المخزون سهلة للغاية مع ميزات مثل التحكم في المخزون لكل عنصر ومجموعة، وكلها قابلة للتخصيص مع مجموعة واسعة من السمات. يمكنك التعامل مع حالات ضريبة القيمة المضافة والضريبة على السلع والخدمات (GST) والضرائب متعددة المستويات بسهولة باستخدام الدعم المدمج.",
+        p2 : "أدر مبيعاتك دون جهد باستخدام سجل نقاط البيع الذي يسجل كل معاملة. قم بإنشاء عروض أسعار وفواتير احترافية، كل ذلك مع تتبع المصروفات بسهولة. هل تحتاج إلى إجراء عملية صرف نقدي؟ البرنامج يوفر لك ذلك. كما أنه يسمح بالطباعة وإرسال إيصالات الفواتير والعروض الأسعار مباشرة عبر البريد الإلكتروني. وبالإضافة إلى ذلك، فإن هذا البرنامج الرائع", 
+        pricee:" عروضنا مريحة لجيبك المسكين لذا لا تقلق 😊",
+        pricettl:"عروضنا ",
+        start:"تبدأ من ",
+        buy:"اشتري الآن ",
+        POPULAR:"الأكثر شعبية  ",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        
+   
     },
     en: {
         home: " Home",
@@ -43,8 +71,25 @@ let lang = {
         inst:"installation support ",
         mail :"E-mail Sending",
         maildesc:"our POS software can handle sending invoices and reciept to your customers ",
-    
-    
+        easy:"Easy to access",
+        easydesc:" the web structure of our software make it able to run on browser or the included app , also you can access it with another pc from the local network ",
+        about:" About Dz SELL ",
+        aboutttl:"Brilliant software that can improve your business",
+        p1 : " Imagine a software solution that streamlines your entire business operation. Inventory management becomes a breeze with features like stock control for individual items and kits, all customizable with a wide range of attributes. Handle complex tax situations with built-in VAT, GST, and multi-tier taxation support. ",
+        p2: " Manage your sales effortlessly with a point-of-sale register that logs every transaction. Generate professional quotes and invoices, all while keeping track of expenses with ease. Need to perform a cash up? The software has you covered. It even allows for printing and emailing receipts, invoices, and quotes directly. ",
+        pricee:" Our pricing plans are designed to fit your needs. and not damage you financially. ",
+        pricettl:"Our Pricing Plans",
+        start:" STRARTING FROM ",
+        buy:"Purchase Now",
+
+        POPULAR:"POPULAR",
+        //  :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        // :"",
+        
     },
    
    
