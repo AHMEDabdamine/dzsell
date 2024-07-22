@@ -133,73 +133,73 @@
 
             <li class="list-group-item">
                 <h2 class="mb-3" data-lang="dzs">2. Purchase Dz SELL and Download</h2>
-                <span data-lang="or">Purchase Dz SELL from our website or </span> <a href="contact.html">contact us </a>  <span>and obtain the download link. Download the Dz SELL package.</span>
+                <span data-lang="or1">Purchase Dz SELL from our website or </span> <a href="contact.html" data-lang="contact">contact us </a>  <span data-lang="or2">and obtain the download link. Download the Dz SELL package.</span>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">3. Extract the Prerequisites</h2>
-                <img  class="zip" src="doc/3.png" alt="">
+                <h2 class="mb-3" data-lang="Extract">3. Extract the Prerequisites</h2>
+                               <p data-lang="ect">Extract the contents of the downloaded "prerequisites.zip" file. You will find two files:</p>
+ <img  class="zip" src="doc/3.png" alt="">
 
-                <p>Extract the contents of the downloaded "prerequisites.zip" file. You will find two files:</p>
                 <ul>
                   <img src="doc/2.png" alt="">
-                    <li>wamp server installer</li>
-                    <li>Microsoft C++ package installer</li>
+                    <li data-lang="wmap">wamp server installer</li>
+                    <li data-lang="c">Microsoft C++ package installer</li>
                 </ul>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">4. Install Microsoft C++ Package</h2>
-                <p>Extract the "visual studio C++ pack" and locate the "install all .bat" file. Execute this file and wait for the installation to complete. Accept all prompts during the installation. Don't worry if you see a command prompt, this is normal. </p>
+                <h2 class="mb-3" data-lang="cinst">4. Install Microsoft C++ Package</h2>
+                <p data-lang="isn">Extract the "visual studio C++ pack" and locate the "install all .bat" file. Execute this file and wait for the installation to complete. Accept all prompts during the installation. Don't worry if you see a command prompt, this is normal. </p>
             <img src="doc/4.png" style="margin: 15px;">
             <img src="doc/5.png" alt="">
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">5. Install WAMP Server</h2>
-                <p>Install the WAMP server by executing the downloaded .exe installer. Follow these steps:</p> <img src="doc/6.png" alt=""><img src="doc/7.png" alt="">
+                <h2 class="mb-3" data-lang="wampinst">5. Install WAMP Server</h2>
+                <p data-lang="wampp">Install the WAMP server by executing the downloaded .exe installer. Follow these steps:</p> <img src="doc/6.png" alt=""><img src="doc/7.png" alt="">
                 <ol>
-                    <li>Choose your language and click "OK".</li>
-                    <li>Accept the terms of usage and click "Next".</li>
-                    <li>Choose the location where you want to save the WAMP files. Remember this location and click "Next".</li>
-                    <li>Continue clicking "Next" until the WAMP server is installed.</li>
+                    <li data-lang="s1">Choose your language and click "OK".</li>
+                    <li data-lang="s2">Accept the terms of usage and click "Next".</li>
+                    <li data-lang="s3">Choose the location where you want to save the WAMP files. Remember this location and click "Next".</li>
+                    <li data-lang="s4">Continue clicking "Next" until the WAMP server is installed.</li>
                 </ol>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">6. Install Dz SELL</h2>
+                <h2 class="mb-3"  data-lang="Instdzssel" >6. Install Dz SELL</h2>
                 <img src="doc/9.png" alt="">
-                <p>Execute the Dz SELL installer. A window will pop up. Click "OK". The installer will prompt you for a location to save the Dz SELL files. Install it in the "www" folder of your WAMP server (e.g., C:\wamp64\www\Dz SELL). If you are installing it on the C drive, you can just click "Next" as the default path should be correct.</p>
+                <p data-lang="inst1">Execute the Dz SELL installer. A window will pop up. Click "OK". The installer will prompt you for a location to save the Dz SELL files. Install it in the "www" folder of your WAMP server (e.g., C:\wamp64\www\Dz SELL). If you are installing it on the C drive, you can just click "Next" as the default path should be correct.</p>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">7. Start WAMP Server</h2>
-                <p>Go to the WAMP shortcut you just installed and run it. Wait for all services to start. You will see a green "W" icon on your taskbar.</p>
+                <h2 class="mb-3" data-lang="startwmp">7. Start WAMP Server</h2>
+                <p data-lang="wampgd">Go to the WAMP shortcut you just installed and run it. Wait for all services to start. You will see a green 'W' icon on your taskbar.</p>
               <img src="doc/11.png" alt="">
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">8. Configure PHP Version</h2>
-                <p>Click on the green "W" icon on the taskbar. Navigate to "PHP" and change the PHP version to 7.3. The server will restart automatically.</p>
+                <h2 class="mb-3" data-lang="php">8. Configure PHP Version</h2>
+                <p data-lang="phpcon">Click on the green "W" icon on the taskbar. Navigate to "PHP" and change the PHP version to 7.3. The server will restart automatically.</p>
             <img src="doc/12.png" alt="" style="height: 280px;">
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">9. Access phpMyAdmin</h2>
-                <p>Click on the green "W" icon again. Navigate to "phpMyAdmin" and run it. A new tab will open in your web browser and phpMyAdmin will start.</p>
+                <h2 class="mb-3" data-lang="phpadm">9. Access phpMyAdmin</h2>
+                <p data-lang="phpadmin">Click on the green "W" icon again. Navigate to "phpMyAdmin" and run it. A new tab will open in your web browser and phpMyAdmin will start.</p>
             <img src="doc/13.png" style="height: 280px;">
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">10. Create the Dz SELL Database</h2>
-                <p>Enter the username "root" (without a password). In the "Databases" section, click "New" to create a new database. Name it "dzsell". This will create a database named "dzsell".</p>
+                <h2 class="mb-3" data-lang="dbc">10. Create the Dz SELL Database</h2>
+                <p data-lang="db">Enter the username "root" (without a password). In the "Databases" section, click "New" to create a new database. Name it "dzsell". This will create a database named "dzsell".</p>
             <img src="doc/14.png" >
             <img src="doc/15.png" alt="">
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">11. Import the Database</h2>
-                <p>Click on "Import" and then "Browse". Go to this path: C:\wamp64\www\Dz SELL\databases\dzsell.sql. Scroll down and click "Import". Wait for a few seconds, and you will see a confirmation message.</p>
+                <h2 class="mb-3" data-lang="dbimp">11. Import the Database</h2>
+                <p data-lang="imp">Click on "Import" and then "Browse". Go to this path: C:\wamp64\www\Dz SELL\databases\dzsell.sql. Scroll down and click "Import". Wait for a few seconds, and you will see a confirmation message.</p>
                 <img src="doc/16.png" >
                 <img src="doc/17.png" >
               </li>
@@ -212,20 +212,20 @@
               </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">13. Configure Virtual Host</h2>
-                <p>Fill in the following fields:</p>
+                <h2 class="mb-3" data-lang="vh">13. Configure Virtual Host</h2>
+                <p data-lang="fild">Fill in the following fields:</p>
                 <ul>
-                    <li>**First Input:** Enter "www.dzsell.com" or any other desired name (use a short name like "dzsell" or "pos").</li>
-                    <li>**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). </li>
-                    <li>**Third Field:** Leave this empty.</li>
+                    <li data-lang="f1">**First Input:** Enter "www.dzsell.com" or any other desired name (use a short name like "dzsell" or "pos").</li>
+                    <li data-lang="f2">**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). </li>
+                    <li data-lang="f3">**Third Field:** Leave this empty.</li>
                     <img src="doc/19.png" alt="">
                 </ul>
-                <p>Click "Create" to create the virtual host. Restart the WAMP server by right-clicking the green "W" icon and selecting "Restart all services".</p>
+                <p data-lang="f4">Click "Create" to create the virtual host. Restart the WAMP server by right-clicking the green "W" icon and selecting "Restart all services".</p>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">14. Start Using Dz SELL</h2>
-                <p>Dz SELL is now ready to use! lanch your app login with the inforamtions provided by us and wait for the database migration to finish . You can start making money with it 🤑 and track you business 🚀🚀.</p>
+                <h2 class="mb-3" data-lang="final">14. Start Using Dz SELL</h2>
+                <p data-lang="fn">Dz SELL is now ready to use! lanch your app login with the inforamtions provided by us and wait for the database migration to finish . You can start making money with it 🤑 and track you business 🚀🚀.</p>
             <img src="doc/20.png" alt="">
               </li>
         </ol>
