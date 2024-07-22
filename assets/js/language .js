@@ -57,8 +57,16 @@ let lang = {
         terms :"سياسة الخدمة ",    
         Refund  :" سياسة الإسترجاع",
         ft:"Dz SELL يمنحك تجربة سلسة في إدارة مشروعك ونشاطك التجاري",
-        
-   
+        pre1:"   1- المتطلبات اللازمة لتشغيل Dz SELL  ",
+        pre:"  المتطلبات اللازمة لتشغيل Dz SELL  ",
+
+           downloadd:"حمّل",
+           wmap:"- حزمة تثبيت WAMP server",
+           c:"- حزمة تثبيت جميع متطلبات ويندوز (حزمات C++ )", 
+           dalil:"دليلك في Dz SELL",
+           daliil :"دليل تثبيت Dz SELL ",
+           
+
     },
     en: {
         home: " Home",
@@ -119,6 +127,16 @@ let lang = {
         Refund:"Refund policy",
 
         ft:" we give you a soft experience managenig your business.",
+        pre1:"   1- المتطلبات اللازمة لتشغيل Dz SELL  ",
+        pre:"  المتطلبات اللازمة لتشغيل Dz SELL  ",
+
+           downloadd:"Download",
+           wmap:" - Wamp server installer ",
+           c:" - windows C++ packages ", 
+           dalil:"Dz SELL Guide",
+           daliil :"Dz SELL Installation Guide 🚀⚡⚡",
+           
+
         // :"",
         // :"",
         // :"",

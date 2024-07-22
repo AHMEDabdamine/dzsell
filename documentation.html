@@ -33,6 +33,12 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <style>
+
+      body.rtl {
+                  direction: rtl;
+              }
+           </style>
   </head>
   <body>
     <!-- ====== Header Start  -->
@@ -53,24 +59,34 @@
               <div class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="index.html">Home</a>
+                    <a class="ud-menu-scroll" href="#home" data-lang="home">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="about.html">About</a>
+                    <a class="ud-menu-scroll" href="#about" data-lang="about" >About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="pricing.html">Pricing</a>
+                    <a class="ud-menu-scroll" href="#pricing" data-lang="price" >Pricing</a>
                   </li>
                   <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#team" data-lang="tm">Team</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="contact.html">Contact</a>
+                    <a target="_blank" href="contact.html" data-lang="contact" >Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a href="documentation.html">documentation</a>
+                    <a href="documentation.html" data-lang="doc">documentation</a>
                   </li>
+                  
                 </ul>
+                <ul>
+                <li class="nav-item" >
+                    <select class="mt-2" style=" width: 130px; height: 30px;" id="language-selector">
+                    <option value="ar">Ar <img src="assets/images/hero/dz.svg" height="20px"></option>
+                    <option value="en">En<img src="assets/images/hero/us.svg" height="20px"></option>
+
+                    </select>
+                  </li> </ul>
               </div>
 
             
@@ -86,7 +102,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-banner-content">
-              <h1>documentation</h1>
+              <h1 data-lang="doc">documentation</h1>
             </div>
           </div>
         </div>
@@ -96,27 +112,28 @@
 
     
   <div class="container">
-    <h1 class="text-center mt-5">Dz SELL Guide</h1>
+    <h1 class="text-center mt-5" data-lang="dalil">Dz SELL Guide</h1>
 
   
     <div class="container">
-        <h2 class="text-center mt-5 mb-4" style="font-size: 23pt;" >Dz SELL Installation Guide 🚀⚡⚡</h2>
+        <h2 class="text-center mt-5 mb-4" style="font-size: 23pt;" data-lang="daliil" >Dz SELL Installation Guide 🚀⚡⚡</h2>
 
         <ol class="list-group list-group-flush">
             <li class="list-group-item">
-                <h2 class="mb-3">1. Download the Prerequisites</h2>
-                <p><a href="download.html">Download </a> the required files from our website. These will include the following:</p>
+                <h2 class="mb-3" data-lang="pre1">1. Download the Prerequisites</h2>
+                <a href="download.html" data-lang="downloadd">Download </a> <span data-lang="pre"> the required files from our website. These will include the following:</span>
                 <ul>
 
-                    <li>wamp server installer</li>                <img src="doc/1.png" alt="">
+                    <li data-lang="wmap">wamp server installer</li>                  
+                          <li data-lang="c">Microsoft C++ package installer</li>
+            <img src="doc/1.png" alt="">
 
-                    <li>Microsoft C++ package installer</li>
                 </ul>
             </li>
 
             <li class="list-group-item">
-                <h2 class="mb-3">2. Purchase Dz SELL and Download</h2>
-                <p>Purchase Dz SELL from our website or <a href="contact.html">contact us </a> and obtain the download link. Download the Dz SELL package.</p>
+                <h2 class="mb-3" data-lang="dzs">2. Purchase Dz SELL and Download</h2>
+                <span data-lang="or">Purchase Dz SELL from our website or </span> <a href="contact.html">contact us </a>  <span>and obtain the download link. Download the Dz SELL package.</span>
             </li>
 
             <li class="list-group-item">
@@ -275,102 +292,98 @@
     </div>
 
   </div>
+  <!-- ====== Footer Start ====== -->
+<footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+  <div class="shape shape-1">
+    <img src="assets/images/footer/shape-1.svg" alt="shape" />
+  </div>
+  <div class="shape shape-2">
+    <img src="assets/images/footer/shape-2.svg" alt="shape" />
+  </div>
+  <div class="shape shape-3">
+    <img src="assets/images/footer/shape-3.svg" alt="shape" />
+  </div>
+  <div class="ud-footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="ud-widget">
+            <a href="index.html" class="ud-footer-logo">
+              <img src="assets/images/logo/logo.svg" alt="logo" />
+            </a>
+            <p class="ud-widget-desc" data-lang="ft">
+              we give you a soft experience managenig your business.
+            </p>
+            <ul class="ud-widget-socials">
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-facebook-filled"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-twitter-filled"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-instagram-filled"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-linkedin-original"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-lang="aboutdzsell">About Us</h5>
+            <ul class="ud-widget-links">
+              <li>
+                <a href="javascript:void(0)" data-lang="home">Home</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="fr">Features</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="about">About</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-lang="fr">Features</h5>
+            <ul class="ud-widget-links">
+             
+              <li>
+                <a href="javascript:void(0)" data-lang="sp">Support</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="terms">Terms of service</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="Refund">Refund policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4">
+            <img style="height: 250px; border-radius: 20px;" src="assets/images/footer/gaza sudan.jpg" alt="">
+         
+          </div></div>
+      </div>
+    </div>
+  </div>
   
-        <!-- ====== Footer Start ====== -->
-        <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-          <div class="shape shape-1">
-            <img src="assets/images/footer/shape-1.svg" alt="shape" />
-          </div>
-          <div class="shape shape-2">
-            <img src="assets/images/footer/shape-2.svg" alt="shape" />
-          </div>
-          <div class="shape shape-3">
-            <img src="assets/images/footer/shape-3.svg" alt="shape" />
-          </div>
-          <div class="ud-footer-widgets">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div class="ud-widget">
-                    <a href="index.html" class="ud-footer-logo">
-                      <img src="assets/images/logo/logo.svg" alt="logo" />
-                    </a>
-                    <p class="ud-widget-desc">
-                      we give you a soft experience managenig your business.
-                    </p>
-                    <ul class="ud-widget-socials">
-                      <li>
-                        <a href="https://twitter.com/MusharofChy">
-                          <i class="lni lni-facebook-filled"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/MusharofChy">
-                          <i class="lni lni-twitter-filled"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/MusharofChy">
-                          <i class="lni lni-instagram-filled"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/MusharofChy">
-                          <i class="lni lni-linkedin-original"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-    
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                  <div class="ud-widget">
-                    <h5 class="ud-widget-title">About Us</h5>
-                    <ul class="ud-widget-links">
-                      <li>
-                        <a href="javascript:void(0)">Home</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">Features</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">About</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">Testimonial</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                  <div class="ud-widget">
-                    <h5 class="ud-widget-title">Features</h5>
-                    <ul class="ud-widget-links">
-                      <li>
-                        <a href="javascript:void(0)">UI / UX</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">Support</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">Terms of service</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)">Refund policy</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xl-4">
-                    <img style="height: 250px; border-radius: 20px;" src="assets/images/footer/gaza sudan.jpg" alt="">
-                 
-                  </div></div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </footer>
-        <!-- ====== Footer End ====== -->
+  </div>
+</footer>
+<!-- ====== Footer End ====== -->
     
         <!-- ====== Back To Top Start ====== -->
         <a href="javascript:void(0)" class="back-to-top">
@@ -382,4 +395,6 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/language .js"></script>
+
         <script>
