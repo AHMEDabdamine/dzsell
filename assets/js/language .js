@@ -31,7 +31,7 @@ let lang = {
         start:"تبدأ من ",
         buy:"اشتري الآن ",
         POPULAR:"الأكثر شعبية  ",
-        dzsell:"برنامج Dz SELL ",
+        dzselll:"برنامج Dz SELL ",
         pc:"كمبيوتر",
         scanner:"قارئ باركود",
         printer:"طابعة حرارية ",
@@ -131,7 +131,7 @@ let lang = {
         buy:"Purchase Now",
 
         POPULAR:"POPULAR",
-        dzsell:" Dz SELL Software",
+        dzsell:" Dz SELL ",
         pc:"computer",
         scanner:"Barcode Scanner ",
         printer:"Thermal Printer ",
@@ -140,7 +140,7 @@ let lang = {
         1:"How can i install it ?",
         a1:"after purchusing  the software download Rustdesk and contact us we will setup everthing for you",        
         commonask:" cummon asked Questions from our customers ",
-    
+    dzselll:"Dz SELL it self",
         2:"what are the benifits i can get by using Dz SELL ?",
         a2:"our POS software help too keep your bisness orgnised and help track your bisness statue with the built in dashboard and reports feature.",
         3:" Does Dz SELL support MS Excel when importing data or exporting it ?",
