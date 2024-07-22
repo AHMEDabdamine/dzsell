@@ -1,12 +1,5 @@
-<!-- =========
 
-	Template Name: Play
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://uideck.com/support/
-	Version: 1.1
 
-========== -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +10,6 @@
 <link rel="stylesheet" href="assets/awesome/all.min.css">
 <link rel="stylesheet" href="assets/awesome/fontawesome.min.css">
 <link rel="stylesheet" href="assets/awesome/fontawesome.css">
-    <!-- Primary Meta Tags -->
 <meta name="title" content="Dz SELL">
 <meta name="description" content="Dz SELL - the only POS software you need">
 
@@ -33,6 +25,12 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <style>
+
+      body.rtl {
+                  direction: rtl;
+              }
+           </style>
   </head>
   <body>
     <!-- ====== Header Start  -->
@@ -53,24 +51,32 @@
               <div class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="index.html">Home</a>
+                    <a class="ud-menu-scroll" href="index.html" data-lang="home">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="about.html">About</a>
+                    <a class="ud-menu-scroll" href="about.html" data-lang="about" >About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="pricing.html">Pricing</a>
+                    <a class="ud-menu-scroll" href="about.html" data-lang="price" >Pricing</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a target="_blank" href="contact.html" data-lang="contact" >Contact</a>
                   </li>
                   <li class="nav-item">
+                    <a href="documentation.html" data-lang="doc">documentation</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="documentation.html">documentation</a>
-                  </li>
+                  
                 </ul>
+                <ul>
+                <li class="nav-item" >
+                    <select class="mt-2"   id="language-selector">
+                    <option value="ar">Ar     🇩🇿 </option>
+                    <option value="en">En     🇬🇧 </option>
+
+                    </select>
+                  </li> </ul>
               </div>
 
             
@@ -286,5 +292,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language .js"></script>
+
   </body>
 </html>

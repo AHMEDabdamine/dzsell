@@ -14,12 +14,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play | Open source Project by UIdeck</title>
+    <title>Dz SELL </title>
+<link rel="stylesheet" href="assets/awesome/all.min.css">
+<link rel="stylesheet" href="assets/awesome/fontawesome.min.css">
+<link rel="stylesheet" href="assets/awesome/fontawesome.css">
+<meta name="title" content="Dz SELL">
+<meta name="description" content="Dz SELL - the only POS software you need">
 
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.svg"
+      href="assets/images/favicon.png"
       type="image/svg"
     />
 
@@ -28,9 +33,15 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <style>
+
+      body.rtl {
+                  direction: rtl;
+              }
+           </style>
   </head>
   <body>
-    <!-- ====== Header Start ====== -->
+    <!-- ====== Header Start  -->
     <header class="ud-header">
       <div class="container">
         <div class="row">
@@ -48,77 +59,41 @@
               <div class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#home">Home</a>
+                    <a class="ud-menu-scroll" href="index.html" data-lang="home">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
+                    <a class="ud-menu-scroll" href="about.html" data-lang="about" >About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#pricing">Pricing</a>
+                    <a class="ud-menu-scroll" href="about.html" data-lang="price" >Pricing</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a target="_blank" href="contact.html" data-lang="contact" >Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Team</a>
+                    <a href="documentation.html" data-lang="doc">documentation</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> Pages </a>
-                    <ul class="ud-submenu">
-                      <li class="ud-submenu-item">
-                        <a href="about.html" class="ud-submenu-link">
-                          About Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="pricing.html" class="ud-submenu-link">
-                          Pricing Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="contact.html" class="ud-submenu-link">
-                          Contact Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="blog.html" class="ud-submenu-link">
-                          Blog Grid Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="blog-details.html" class="ud-submenu-link">
-                          Blog Details Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="login.html" class="ud-submenu-link">
-                          Sign In Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="404.html" class="ud-submenu-link">404 Page</a>
-                      </li>
-                    </ul>
-                  </li>
+                  
                 </ul>
+                <ul>
+                <li class="nav-item" >
+                    <select class="mt-2"   id="language-selector">
+                    <option value="ar">Ar     🇩🇿 </option>
+                    <option value="en">En     🇬🇧 </option>
+
+                    </select>
+                  </li> </ul>
               </div>
 
-              <div class="navbar-btn d-none d-sm-inline-block">
-                <a href="login.html" class="ud-main-btn ud-login-btn">
-                  Sign In
-                </a>
-                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                  Sign Up
-                </a>
-              </div>
+            
             </nav>
           </div>
         </div>
       </div>
     </header>
     <!-- ====== Header End ====== -->
-
     <!-- ====== Banner Start ====== -->
     <section class="ud-page-banner">
       <div class="container">
@@ -133,212 +108,80 @@
     </section>
     <!-- ====== Banner End ====== -->
 
-    <!-- ====== About Start ====== -->
-    <section id="about" class="ud-about">
-      <div class="container">
-        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <div class="ud-about-content-wrapper">
-            <div class="ud-about-content">
-              <span class="tag">About Us</span>
-              <h2>Brilliant Toolkit to Build Nextgen Website Faster.</h2>
-              <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel discussions and roundtables led by subject
-                matter experts.
-              </p>
+   <!-- ====== About Start ====== -->
+   <section id="about" class="ud-about">
+    <div class="container">
+      <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
+        <div class="ud-about-content-wrapper">
+          <div class="ud-about-content">
+            <span class="tag" data-lang="aboutdzsell">About Dz SELL</span>
+            <h2 data-lang="aboutttl">Brilliant software that can improve your business</h2>
+            <p data-lang="p1">
+              Imagine a software solution that streamlines your entire business operation.  Inventory management becomes a breeze with features
+              like stock control for individual items and kits,
+               all customizable with a wide range of attributes. Handle complex tax
+                situations with built-in VAT, GST, and multi-tier taxation support. 
+            </p>
 
-              <p>
-                The main ‘thrust’ is to focus on educating attendees on how to
-                best protect highly vulnerable business applications with
-                interactive panel.
-              </p>
-              <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
-            </div>
-          </div>
-          <div class="ud-about-image">
-            <img src="assets/images/about/about-image.svg" alt="about-image" />
+            <p data-lang="p2">
+              Manage your sales effortlessly with a point-of-sale register that logs every transaction.
+               Generate professional quotes and invoices, all while keeping track of expenses with ease. Need to perform a cash up? The software has you covered. 
+              It even allows for printing and emailing receipts, invoices, and quotes directly.
+            </p>
+            <a target="_blank" href="documentation.html" class="ud-main-btn" data-lang="Learn" >Learn More</a>
+           
           </div>
         </div>
+        <div class="ud-about-image">
+          <img style="margin-top: 150px;" src="assets/images/about/about-image.png" alt="about-image" />
+        </div>
       </div>
-    </section>
-    <!-- ====== About End ====== -->
+    </div>
+  </section>
+  <!-- ====== About End ====== -->
 
-    <!-- ====== Team Start ====== -->
-    <section id="team" class="ud-team">
+
+     <!-- ====== Team Start ====== -->
+     <section id="team" class="ud-team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span>Our Team</span>
-              <h2>Meet The Team</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
+              <span data-lang="tm">Our Team</span>
+              <h2 data-lang="meettm">Meet The Team</h2>
+              
             </div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center"> 
           <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-team wow fadeInUp" data-wow-delay=".1s">
-              <div class="ud-team-image-wrapper">
+            <div class="ud-single-team wow fadeInUp" data-wow-delay=".1s"> 
+              <div class="ud-team-image-wrapper d-flex flex-column align-items-center justify-content-center"> 
                 <div class="ud-team-image">
-                  <img src="assets/images/team/team-01.png" alt="team" />
+                  <img src="assets/images/team/ahmed.png" alt="team" />
                 </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
+        
+                <img src="assets/images/team/dotted-shape.svg" alt="shape" class="shape shape-1"/>
+                <img src="assets/images/team/shape-2.svg" alt="shape" class="shape shape-2"/>
               </div>
-              <div class="ud-team-info">
-                <h5>Adveen Desuza</h5>
-                <h6>UI Designer</h6>
+              <div class="ud-team-info text-center">
+                <h5 data-lang="hamed">Ahmed Abdesselam </h5>
+                <h6 data-lang="dev">full stack devlopper</h6>
               </div>
-              <ul class="ud-team-socials">
+              <ul class="ud-team-socials d-flex justify-content-center"> 
                 <li>
-                  <a href="https://twitter.com/MusharofChy">
+                  <a  target="_blank" href="https://www.facebook.com/profile.php?id=100028183539752">
                     <i class="lni lni-facebook-filled"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
+                  <a href="https://github.com/AHMEDabdamine">
+                    <i class="lni lni-github-original"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-team wow fadeInUp" data-wow-delay=".15s">
-              <div class="ud-team-image-wrapper">
-                <div class="ud-team-image">
-                  <img src="assets/images/team/team-02.png" alt="team" />
-                </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
-              </div>
-              <div class="ud-team-info">
-                <h5>Jezmin uniya</h5>
-                <h6>Product Designer</h6>
-              </div>
-              <ul class="ud-team-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-team wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-team-image-wrapper">
-                <div class="ud-team-image">
-                  <img src="assets/images/team/team-03.png" alt="team" />
-                </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
-              </div>
-              <div class="ud-team-info">
-                <h5>Andrieo Gloree</h5>
-                <h6>App Developer</h6>
-              </div>
-              <ul class="ud-team-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-instagram-filled"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-team wow fadeInUp" data-wow-delay=".25s">
-              <div class="ud-team-image-wrapper">
-                <div class="ud-team-image">
-                  <img src="assets/images/team/team-04.png" alt="team" />
-                </div>
-
-                <img
-                  src="assets/images/team/dotted-shape.svg"
-                  alt="shape"
-                  class="shape shape-1"
-                />
-                <img
-                  src="assets/images/team/shape-2.svg"
-                  alt="shape"
-                  class="shape shape-2"
-                />
-              </div>
-              <div class="ud-team-info">
-                <h5>Jackie Sanders</h5>
-                <h6>Content Writer</h6>
-              </div>
-              <ul class="ud-team-socials">
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-facebook-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
-                    <i class="lni lni-twitter-filled"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusharofChy">
+                  <a href="https://www.instagram.com/ahmeed_amiinee/">
                     <i class="lni lni-instagram-filled"></i>
                   </a>
                 </li>
@@ -346,245 +189,101 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- ====== Team End ====== -->
 
-    <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-      <div class="shape shape-1">
-        <img src="assets/images/footer/shape-1.svg" alt="shape" />
-      </div>
-      <div class="shape shape-2">
-        <img src="assets/images/footer/shape-2.svg" alt="shape" />
-      </div>
-      <div class="shape shape-3">
-        <img src="assets/images/footer/shape-3.svg" alt="shape" />
-      </div>
-      <div class="ud-footer-widgets">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="ud-widget">
-                <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
+        <!-- ====== Footer Start ====== -->
+<footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+  <div class="shape shape-1">
+    <img src="assets/images/footer/shape-1.svg" alt="shape" />
+  </div>
+  <div class="shape shape-2">
+    <img src="assets/images/footer/shape-2.svg" alt="shape" />
+  </div>
+  <div class="shape shape-3">
+    <img src="assets/images/footer/shape-3.svg" alt="shape" />
+  </div>
+  <div class="ud-footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="ud-widget">
+            <a href="index.html" class="ud-footer-logo">
+              <img src="assets/images/logo/logo.svg" alt="logo" />
+            </a>
+            <p class="ud-widget-desc" data-lang="ft">
+              we give you a soft experience managenig your business.
+            </p>
+            <ul class="ud-widget-socials">
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-facebook-filled"></i>
                 </a>
-                <p class="ud-widget-desc">
-                  We create digital experiences for brands and companies by
-                  using technology.
-                </p>
-                <ul class="ud-widget-socials">
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-facebook-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">About Us</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">Home</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Features</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">About</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Testimonial</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Features</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a href="javascript:void(0)">How it works</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Privacy policy</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Terms of service</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Refund policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Our Products</h5>
-                <ul class="ud-widget-links">
-                  <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Lineicons
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ecommerce HTML</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Ayro UI</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                      >Plain Admin</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
-              <div class="ud-widget">
-                <h5 class="ud-widget-title">Partners</h5>
-                <ul class="ud-widget-brands">
-                  <li>
-                    <a
-                      href="https://ayroui.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ayroui.svg"
-                        alt="ayroui"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://ecommercehtml.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/ecommerce-html.svg"
-                        alt="ecommerce-html"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://graygrids.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/graygrids.svg"
-                        alt="graygrids"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://lineicons.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/lineicons.svg"
-                        alt="lineicons"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://uideck.com/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/uideck.svg"
-                        alt="uideck"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindtemplates.co/"
-                      rel="nofollow noopner"
-                      target="_blank"
-                    >
-                      <img
-                        src="assets/images/footer/brands/tailwindtemplates.svg"
-                        alt="tailwindtemplates"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-twitter-filled"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-instagram-filled"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MusharofChy">
+                  <i class="lni lni-linkedin-original"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="ud-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <ul class="ud-footer-bottom-left">
-                <li>
-                  <a href="javascript:void(0)">Privacy policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Support policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Terms of service</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <p class="ud-footer-bottom-right">
-                Designed and Developed by
-                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
-              </p>
-            </div>
+
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-lang="aboutdzsell">About Us</h5>
+            <ul class="ud-widget-links">
+              <li>
+                <a href="javascript:void(0)" data-lang="home">Home</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="fr">Features</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="about">About</a>
+              </li>
+              
+            </ul>
           </div>
         </div>
+        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-lang="fr">Features</h5>
+            <ul class="ud-widget-links">
+             
+              <li>
+                <a href="javascript:void(0)" data-lang="sp">Support</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="terms">Terms of service</a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-lang="Refund">Refund policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4">
+            <img style="height: 250px; border-radius: 20px;" src="assets/images/footer/gaza sudan.jpg" alt="">
+         
+          </div></div>
       </div>
-    </footer>
-    <!-- ====== Footer End ====== -->
-
+    </div>
+  </div>
+  
+  </div>
+</footer>
+<!-- ====== Footer End ====== -->
     <!-- ====== Back To Top Start ====== -->
     <a href="javascript:void(0)" class="back-to-top">
       <i class="lni lni-chevron-up"> </i>
@@ -595,5 +294,7 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language .js"></script>
+
   </body>
 </html>

@@ -33,7 +33,11 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+#language-selecto{
+  width: 130px;
+   height: 50px;
 
+}
 img {
   max-width: 100%;
 }
@@ -2615,6 +2619,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+  direction: ltr;
 }
 
 .up {
@@ -2660,7 +2665,7 @@ p {
 .fb {
   margin-top: 1.5em;
   margin-left: -.9em;
-  fill: #03A9F4;
+  fill: #90d7f8;
 }
 
 .card3 {
