@@ -98,6 +98,17 @@ let lang = {
             f4:"قم بالضغط على start the creation of the virtual host وأعد تشغيل wamp server", 
             final:"14- البدأ في استعمال Dz SELL ",
             fn:"تم إعداد Dz SELL الآن للاستخدام! قم بتشغيل التطبيق الخاص بك وسجّل الدخول باستخدام المعلومات التي قدمناها لك وانتظر حتى يكتمل نقل قاعدة البيانات. يمكنك الآن البدء في جني الأموال من خلاله  ومتابعة عملك .",
+       talk:"لنتكلم حول Dz SELL ",
+       love:"نحن نحب الإستماع إلى رأيك 😊",
+       location:"موقعنا ",
+       loc:"المدية - الجزائر ",
+       help:"تواصل معنا لمساعدك عبر البريد ",
+       
+       
+       
+       
+       
+       
         },
     en: {
         home: " Home",
@@ -203,7 +214,11 @@ let lang = {
         // :"",
         final:"14- Start Using Dz SELL",
         fn:"Dz SELL is now ready to use! lanch your app login with the inforamtions provided by us and wait for the database migration to finish . You can start making money with it 🤑 and track you business 🚀🚀.",
-    
+        talk:"Let’s talk about Dz SELL",
+        love:"Love to hear from you!",
+        location:"Our location ",
+        loc:"Medea - Algeria ",
+        help:"how can we help you ?",
     
     },
    
