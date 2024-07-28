@@ -209,7 +209,7 @@ let lang = {
             vh:"12- Create a Virtual Host",
             fild:"Go back to the green 'W' icon on the taskbar. Navigate to 'localhost' (or type 'localhost' in your browser). This will open a page with localhost controls. Click 'Add New Virtual Host'.",
             f1:"**First Input:** Enter 'www.dzsell.com' or any other desired name (use a short name like ''dzsell''or''pos'').",
-            F2:"**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). ",
+            f2:"**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). ",
             f3:"**Third Field:** Leave this empty.",
             f4:"Click 'Create' to create the virtual host. Restart the WAMP server by right-clicking the green 'W' icon and selecting 'Restart all services'.",             // :"",
         // :"",
