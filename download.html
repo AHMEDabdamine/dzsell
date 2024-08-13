@@ -90,7 +90,7 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="ud-banner-content">
-                <h1>Download</h1>
+                <h1 data-lang="dwn">Download</h1>
               </div>
             </div>
           </div>
@@ -107,9 +107,9 @@
         <div class="container"> 
           <div class="row justify-content-center"> 
             <div class="col-md-8 text-center"> 
-              <h2 class="mb-4">Download Your File</h2>
-              <p class="lead mb-5">Click the button below to start downloading Dz SELL .</p>
-              <p style="color: rgb(0, 14, 216); font-weight: bold;" class="lead mb-5"> request the access by clicking the Request access button and we will contact you back 😊
+              <h2 class="mb-4" data-lang="dzdwn">Download Dz SELL </h2>
+              <p class="lead mb-5" data-lang="clickdwn">Click the button below to start downloading Dz SELL .</p>
+              <p style="color: rgb(0, 0, 0); font-weight: bold;" class="lead mb-5" data-lang="access"> request the access by clicking the Request access button and we will contact you back 😊
               </p>
               <div class="bgimg">
                 <img class="down" src="doc/down.svg" style="width: 100%; height: auto;"> 
@@ -131,7 +131,7 @@
                       </svg>
                     </div>
                     <div class="text-container">
-                      <div class="text">Download Now</div>
+                      <div class="text" data-lang="download">Download Now</div>
                     </div>
                   </div>
                 </a>
@@ -147,7 +147,7 @@
         <br>
         <br>
         <br>
-     </body><!-- ====== Footer Start ====== -->
+     </body>    <!-- ====== Footer Start ====== -->
      <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
        <div class="shape shape-1">
          <img src="assets/images/footer/shape-1.svg" alt="shape" />
@@ -166,7 +166,7 @@
                  <a href="index.html" class="ud-footer-logo">
                    <img src="assets/images/logo/logo.svg" alt="logo" />
                  </a>
-                 <p class="ud-widget-desc">
+                 <p class="ud-widget-desc" data-lang="ft">
                    we give you a soft experience managenig your business.
                  </p>
                  <ul class="ud-widget-socials">
@@ -193,41 +193,37 @@
                  </ul>
                </div>
              </div>
- 
+     
              <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
                <div class="ud-widget">
-                 <h5 class="ud-widget-title">About Us</h5>
+                 <h5 class="ud-widget-title" data-lang="aboutdzsell">About Us</h5>
                  <ul class="ud-widget-links">
                    <li>
-                     <a href="javascript:void(0)">Home</a>
+                     <a href="javascript:void(0)" data-lang="home">Home</a>
                    </li>
                    <li>
-                     <a href="javascript:void(0)">Features</a>
+                     <a href="javascript:void(0)" data-lang="fr">Features</a>
                    </li>
                    <li>
-                     <a href="javascript:void(0)">About</a>
+                     <a href="javascript:void(0)" data-lang="about">About</a>
                    </li>
-                   <li>
-                     <a href="javascript:void(0)">Testimonial</a>
-                   </li>
+                   
                  </ul>
                </div>
              </div>
              <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
                <div class="ud-widget">
-                 <h5 class="ud-widget-title">Features</h5>
+                 <h5 class="ud-widget-title" data-lang="fr">Features</h5>
                  <ul class="ud-widget-links">
+                  
                    <li>
-                     <a href="javascript:void(0)">UI / UX</a>
+                     <a href="javascript:void(0)" data-lang="sp">Support</a>
                    </li>
                    <li>
-                     <a href="javascript:void(0)">Support</a>
+                     <a href="javascript:void(0)" data-lang="terms">Terms of service</a>
                    </li>
                    <li>
-                     <a href="javascript:void(0)">Terms of service</a>
-                   </li>
-                   <li>
-                     <a href="javascript:void(0)">Refund policy</a>
+                     <a href="javascript:void(0)" data-lang="Refund">Refund policy</a>
                    </li>
                  </ul>
                </div>
@@ -243,4 +239,63 @@
        </div>
      </footer>
      <!-- ====== Footer End ====== -->
-     <script src="assets/js/language .js"></script>
+     
+         <!-- ====== Back To Top Start ====== -->
+         <a href="javascript:void(0)" class="back-to-top">
+           <i class="lni lni-chevron-up"> </i>
+         </a>
+         <!-- ====== Back To Top End ====== -->
+     
+         <!-- ====== All Javascript Files ====== -->
+         <script src="assets/js/bootstrap.bundle.min.js"></script>
+         <script src="assets/js/wow.min.js"></script>
+         <script src="assets/js/main.js"></script> 
+     
+         <script>
+     
+           // ==== for menu scroll
+           const pageLink = document.querySelectorAll(".ud-menu-scroll");
+     
+           pageLink.forEach((elem) => {
+             elem.addEventListener("click", (e) => {
+               e.preventDefault();
+               document.querySelector(elem.getAttribute("href")).scrollIntoView({
+                 behavior: "smooth",
+                 offsetTop: 1 - 60,
+               });
+             });
+           });
+     
+           // section menu active
+           function onScroll(event) {
+             const sections = document.querySelectorAll(".ud-menu-scroll");
+             const scrollPos =
+               window.pageYOffset ||
+               document.documentElement.scrollTop ||
+               document.body.scrollTop;
+     
+             for (let i = 0; i < sections.length; i++) {
+               const currLink = sections[i];
+               const val = currLink.getAttribute("href");
+               const refElement = document.querySelector(val);
+               const scrollTopMinus = scrollPos + 73;
+               if (
+                 refElement.offsetTop <= scrollTopMinus &&
+                 refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+               ) {
+                 document
+                   .querySelector(".ud-menu-scroll")
+                   .classList.remove("active");
+                 currLink.classList.add("active");
+               } else {
+                 currLink.classList.remove("active");
+               }
+             }
+           }
+     
+           window.document.addEventListener("scroll", onScroll);
+         </script>
+         <script src="assets/js/language .js"></script>
+       </body>
+     </html>
+     

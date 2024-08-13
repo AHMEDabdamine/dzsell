@@ -107,9 +107,10 @@ let lang = {
        location:"موقعنا ",
        loc:"المدية - الجزائر ",
        help:"تواصل معنا لمساعدك عبر البريد ",
-       
-       
-       
+       dwn:"التحميل ",
+       dzdwn:"حمل Dz SELL الآن ",
+       clickdwn:"اضغط على زر التحميل للتحميل",
+       access:"يمكنكم شراء Dz SELL من خلال الضغط على زر التحميل ثم Request access سيتم التواصل معكم من قبل الفريق واتمام عملية الدفع  يمكنكم أيضا ترك رقم هاتفكم و أي وسيلة تواصل  في الخانة المخصصة لارسال الرسالة  ",
        
        
        
@@ -212,10 +213,7 @@ let lang = {
             f2:"**Second Field:** Enter the path where you installed Dz SELL (e.g., C:\wamp64\www\Dz SELL). ",
             f3:"**Third Field:** Leave this empty.",
             f4:"Click 'Create' to create the virtual host. Restart the WAMP server by right-clicking the green 'W' icon and selecting 'Restart all services'.",             // :"",
-        // :"",
-        // :"",
-        // :"",
-        // :"",
+      
         final:"14- Start Using Dz SELL",
         fn:"Dz SELL is now ready to use! lanch your app login with the inforamtions provided by us and wait for the database migration to finish . You can start making money with it 🤑 and track you business 🚀🚀.",
         talk:"Let’s talk about Dz SELL",
@@ -223,7 +221,11 @@ let lang = {
         location:"Our location ",
         loc:"Medea - Algeria ",
         help:"how can we help you ?",
-    
+     dwn:"download",
+            dzdwn:"Download Dz SELL ",
+                 
+            clickdwn:"Click the button below to start downloading Dz SELL . ",
+        access:" request the access by clicking the Request access button and we will contact you back 😊 ",
     },
    
    
