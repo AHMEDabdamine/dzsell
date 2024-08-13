@@ -200,6 +200,25 @@ p {
   color: var(--white);
 }
 
+#language-selector{
+  background: #fff;
+  width: fit-content;
+  cursor: pointer;
+  position: relative;
+  transition: 300ms;
+  color: rgb(63, 63, 63);
+  overflow: hidden;
+
+
+}
+.option {
+  border-radius: 5px;
+  padding: 5px;
+  transition: 300ms;
+  background-color: #2a2f3b;
+  width: 150px;
+  font-size: 15px;
+}
 .back-to-top:hover {
   color: var(--white);
   background: var(--heading-color);
