@@ -111,7 +111,7 @@ let lang = {
        dzdwn:"حمل Dz SELL الآن ",
        clickdwn:"اضغط على زر التحميل للتحميل",
        access:"يمكنكم شراء Dz SELL من خلال الضغط على زر التحميل ثم Request access سيتم التواصل معكم من قبل الفريق واتمام عملية الدفع  يمكنكم أيضا ترك رقم هاتفكم و أي وسيلة تواصل  في الخانة المخصصة لارسال الرسالة  ",
-       
+       downloadserver :"حمّلmariaDB SQL server  ",
        
        
         },
@@ -226,6 +226,8 @@ let lang = {
                  
             clickdwn:"Click the button below to start downloading Dz SELL . ",
         access:" request the access by clicking the Request access button and we will contact you back 😊 ",
+        downloadserver :"Download mariaDB server",
+
     },
    
    

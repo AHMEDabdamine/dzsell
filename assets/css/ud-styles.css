@@ -2761,7 +2761,7 @@ p {
 }
 .download-btn {
   height: 50px;
-  width: 150px;
+  width: 30%;
   cursor: pointer;
   background: white;
   border: none;
